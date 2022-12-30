@@ -9,9 +9,6 @@
 
 Aplicação utiliza API do Mercado Livre para pesquisar produtos, por padrão busca o termo "Manga Berserk" no index, porém é possivel pesquisar qualquer termo que retornará itens a venda do mercado livre, utilizei hooks useState e useEffect do React e BrowserRouter, Routes, Route, Link, para navegar entre as páginas, useNavigate e useLocation para enviar parâmetros entre os componentes, funcionalidades do React-Router-Dom. Com o LocalStorage simulei o back-end, guardando dados do usuário e autenticando comparando com os dados guardados no mesmo, o carrinho de compras também é armazenado no LocalStorage e é possível finalizar a compra caso o perfil logado possua saldo suficiente, dados do usuário também podem ser atualizados no LocalStorage.
 
-- Dialog do @material-ui para o card onde edita e exlui as postagens.
-- Yup para validar título e conteúdo, tornei os dois campos obrigatórios e estipulei tamanho minimo e máximo.
-
 ### Imagens
 
 <img src="imgs/home.PNG" >
