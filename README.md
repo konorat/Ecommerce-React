@@ -2,7 +2,7 @@
 
 # Ecommerce utilizando React e funcionalidades manipulando LocalStorage
 <p align="center">
-  <img src="imgs/gif.gif" width="600px">
+  <img src="imgs/gif.gif" >
 </p>
 
 ## Descrição
@@ -14,8 +14,8 @@ Aplicação utiliza API do Mercado Livre para pesquisar produtos, por padrão bu
 
 ### Imagens
 
-<img src="imgs/home.PNG" width="600px">
-<img src="imgs/cart.PNG" width="600px">
+<img src="imgs/home.PNG" >
+<img src="imgs/cart.PNG" >
 
 
 ## Instalação
