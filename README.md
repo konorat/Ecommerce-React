@@ -1,3 +1,49 @@
+# ecommerce-React-LocalStorage
+
+# Ecommerce utilizando React e funcionalidades manipulando LocalStorage
+<p align="center">
+  <img src="ecommerce-React-LocalStorage/imgs/gif.gif" width="600px">
+</p>
+
+## Descrição
+
+Aplicação utiliza API do Mercado Livre para pesquisar produtos, por padrão busca o termo "Manga Berserk" no index, porém é possivel pesquisar qualquer termo que retornará itens a venda do mercado livre, utilizei hooks useState e useEffect do React e BrowserRouter, Routes, Route, Link, para navegar entre as páginas, useNavigate e useLocation para enviar parâmetros entre os componentes, funcionalidades do React-Router-Dom. Com o LocalStorage simulei o back-end, guardando dados do usuário e autenticando comparando com os dados guardados no mesmo, o carrinho de compras também é armazenado no LocalStorage e é possível finalizar a compra caso o perfil logado possua saldo suficiente, dados do usuário também podem ser atualizados no LocalStorage.
+
+- Dialog do @material-ui para o card onde edita e exlui as postagens.
+- Yup para validar título e conteúdo, tornei os dois campos obrigatórios e estipulei tamanho minimo e máximo.
+
+### Imagens
+
+<img src="ecommerce-React-LocalStorage/imgs/home.PNG" width="600px">
+<img src="ecommerce-React-LocalStorage/imgs/cart.PNG" width="600px">
+
+
+## Instalação
+
+### Client
+
+  1. `$ cd client`
+  2. `$ npm install` or `$ yarn install`
+  3. `$ npm start` or `$ yarn start`
+
+## Funcionalidades
+
++ Pesquisar produtos, adicionar, remover do carrinho.
++ Login e editar perfil.
++ Concluir compra.
+
+### Front-end
++ `React-Js`
++ `Styled-components`
++ `LocalStorage` 
+ 
+
+
+### Simulação Back-end
+
++ `LocalStorage`
+
+/////////////////////////////////////////////////////////////////////////////
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
