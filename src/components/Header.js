@@ -5,7 +5,7 @@ import { FaSearch } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 import { setItem, getItem } from '../services/LocalStorageFuncs';
 
-export const Header = () => {
+export const Header = (props) => {
   const [param, setParam] = useState('');
   const history = useNavigate();
 
@@ -15,10 +15,8 @@ export const Header = () => {
 
   const handleClick = (e) => {
     e.preventDefault();
-    console.log(param);
-    setItem('param', param);
+    props.handleUpdate(param);
     history('/');
-    window.location.reload(false);
   };
 
   return (
